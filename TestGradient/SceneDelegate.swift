@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  TestGradient
-//
-//  Created by Andrew Cheberyako on 05.02.2024.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {

@@ -13,6 +13,15 @@
 		492725F62B71869600931CDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492725F42B71869600931CDF /* Main.storyboard */; };
 		492725F82B7186A000931CDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492725F72B7186A000931CDF /* Assets.xcassets */; };
 		492725FB2B7186A000931CDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492725F92B7186A000931CDF /* LaunchScreen.storyboard */; };
+		498DFE902BC2FABD00E60BC9 /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498DFE8F2BC2FABD00E60BC9 /* Parameters.swift */; };
+		498DFE922BC2FAE400E60BC9 /* GradientParametres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498DFE912BC2FAE400E60BC9 /* GradientParametres.swift */; };
+		498DFE952BC2FB2600E60BC9 /* GradientBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498DFE942BC2FB2600E60BC9 /* GradientBackgroundView.swift */; };
+		498DFE972BC2FB9F00E60BC9 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498DFE962BC2FB9F00E60BC9 /* BackgroundView.swift */; };
+		498DFE992BC2FC0600E60BC9 /* GradientBackgroundViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498DFE982BC2FC0600E60BC9 /* GradientBackgroundViewModel.swift */; };
+		498DFE9C2BC2FC5F00E60BC9 /* FirstState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498DFE9B2BC2FC5F00E60BC9 /* FirstState.swift */; };
+		498DFE9E2BC2FC7E00E60BC9 /* SecondState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498DFE9D2BC2FC7E00E60BC9 /* SecondState.swift */; };
+		498DFEA02BC2FCA500E60BC9 /* ThirdState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498DFE9F2BC2FCA500E60BC9 /* ThirdState.swift */; };
+		498DFEA22BC2FCF600E60BC9 /* DefaultStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498DFEA12BC2FCF600E60BC9 /* DefaultStates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		492725F72B7186A000931CDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		492725FA2B7186A000931CDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		492725FC2B7186A000931CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		498DFE8F2BC2FABD00E60BC9 /* Parameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
+		498DFE912BC2FAE400E60BC9 /* GradientParametres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientParametres.swift; sourceTree = "<group>"; };
+		498DFE942BC2FB2600E60BC9 /* GradientBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackgroundView.swift; sourceTree = "<group>"; };
+		498DFE962BC2FB9F00E60BC9 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		498DFE982BC2FC0600E60BC9 /* GradientBackgroundViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackgroundViewModel.swift; sourceTree = "<group>"; };
+		498DFE9B2BC2FC5F00E60BC9 /* FirstState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstState.swift; sourceTree = "<group>"; };
+		498DFE9D2BC2FC7E00E60BC9 /* SecondState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondState.swift; sourceTree = "<group>"; };
+		498DFE9F2BC2FCA500E60BC9 /* ThirdState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdState.swift; sourceTree = "<group>"; };
+		498DFEA12BC2FCF600E60BC9 /* DefaultStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultStates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,48 @@
 		492725ED2B71869600931CDF /* TestGradient */ = {
 			isa = PBXGroup;
 			children = (
+				498DFE932BC2FB0F00E60BC9 /* Views */,
+				498DFE8E2BC2FAA800E60BC9 /* Model */,
+				498DFE9A2BC2FC4400E60BC9 /* States */,
 				492725EE2B71869600931CDF /* AppDelegate.swift */,
 				492725F02B71869600931CDF /* SceneDelegate.swift */,
 				492725F22B71869600931CDF /* ViewController.swift */,
+				498DFE982BC2FC0600E60BC9 /* GradientBackgroundViewModel.swift */,
+				498DFEA12BC2FCF600E60BC9 /* DefaultStates.swift */,
 				492725F42B71869600931CDF /* Main.storyboard */,
 				492725F72B7186A000931CDF /* Assets.xcassets */,
 				492725F92B7186A000931CDF /* LaunchScreen.storyboard */,
 				492725FC2B7186A000931CDF /* Info.plist */,
 			);
 			path = TestGradient;
+			sourceTree = "<group>";
+		};
+		498DFE8E2BC2FAA800E60BC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				498DFE8F2BC2FABD00E60BC9 /* Parameters.swift */,
+				498DFE912BC2FAE400E60BC9 /* GradientParametres.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		498DFE932BC2FB0F00E60BC9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				498DFE942BC2FB2600E60BC9 /* GradientBackgroundView.swift */,
+				498DFE962BC2FB9F00E60BC9 /* BackgroundView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		498DFE9A2BC2FC4400E60BC9 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				498DFE9B2BC2FC5F00E60BC9 /* FirstState.swift */,
+				498DFE9D2BC2FC7E00E60BC9 /* SecondState.swift */,
+				498DFE9F2BC2FCA500E60BC9 /* ThirdState.swift */,
+			);
+			path = States;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +134,8 @@
 			dependencies = (
 			);
 			name = TestGradient;
+			packageProductDependencies = (
+			);
 			productName = TestGradient;
 			productReference = 492725EB2B71869600931CDF /* TestGradient.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +164,8 @@
 				Base,
 			);
 			mainGroup = 492725E22B71869500931CDF;
+			packageReferences = (
+			);
 			productRefGroup = 492725EC2B71869600931CDF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +193,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				498DFE952BC2FB2600E60BC9 /* GradientBackgroundView.swift in Sources */,
+				498DFE9E2BC2FC7E00E60BC9 /* SecondState.swift in Sources */,
+				498DFEA02BC2FCA500E60BC9 /* ThirdState.swift in Sources */,
+				498DFEA22BC2FCF600E60BC9 /* DefaultStates.swift in Sources */,
 				492725F32B71869600931CDF /* ViewController.swift in Sources */,
+				498DFE992BC2FC0600E60BC9 /* GradientBackgroundViewModel.swift in Sources */,
 				492725EF2B71869600931CDF /* AppDelegate.swift in Sources */,
+				498DFE972BC2FB9F00E60BC9 /* BackgroundView.swift in Sources */,
+				498DFE9C2BC2FC5F00E60BC9 /* FirstState.swift in Sources */,
+				498DFE922BC2FAE400E60BC9 /* GradientParametres.swift in Sources */,
 				492725F12B71869600931CDF /* SceneDelegate.swift in Sources */,
+				498DFE902BC2FABD00E60BC9 /* Parameters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
